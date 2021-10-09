@@ -1,0 +1,141 @@
+header{
+    background-color: #1F2937;
+    padding: 0 100px;
+}
+ul{
+    display: flex;
+    margin:0;
+    padding:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+.logoheader{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.firstlink{
+    margin-left: auto;
+}
+.middlelink{
+    padding: 0 20px;
+}
+.container-header{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.image-header{
+    height: 200px;
+    flex:1;
+}
+.leftside{
+    padding-right: 30px;
+    flex: 1;
+}
+.maintext{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+}
+.secondarytext, a{
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: white;
+    padding: 5px 24px;
+    flex: none;
+    margin-right: auto;
+}
+
+
+
+.title{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.container .child img{
+    border:2px solid #3882F6;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.child{
+    max-width: 100px;
+}
+
+
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+.quote2{
+    width: 900px;
+}
+.quotetext{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.author{
+    font-weight: bolder;
+    text-align: end;
+}
+
+
+.box{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+}
+.call-to-action{
+    background-color: #3882F6;
+    border-radius: 2%;
+    color: white;
+    display: flex;
+    padding: 30px 90px;
+}
+.strong{
+    font-weight: bolder;
+}
+.button{
+    margin-left: 100px;
+}
+footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
